@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pick A Dinner For Me!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- import Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark text-white">
+    <h1>
+      Where should I eat dinner tonight?
+    </h1>
+    <div id="typeHere">
+      <input type="text" id="userInput" placeholder="Enter your name" />
+    </div>
+    <div class="row">
+      <div class="col">
+        <h3>Type of Restaurant</h3>
+      </div>
+      <div class="col">
+        <select class="form-control">
+          <option>Chinese</option>
+          <option>Italian</option>
+          <option>American</option>
+        </select>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div class="row">
+      <div class="col" id="spendMessage">
+        <h3>
+        How much can you spend?
+        </h3>
+      </div>
+      <div class="col-1" id="upArrow">
+        <img
+          class="img-fluid"
+          src="https://cdn.glitch.com/b445eae7-3e54-498d-a72f-ad4addacd5c4%2FupArrpw.png?v=1592492851516"
+        />
+      </div>
+      <div class="col-1" id="downArrow">
+        <img
+          class="img-fluid"
+          src="https://cdn.glitch.com/b445eae7-3e54-498d-a72f-ad4addacd5c4%2FdownArrow.png?v=1592492851672"
+        />
+      </div>
+      <div class="col-2" id="move">
+        <h1 class="money">
+          $0
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col text-center">
+      <button id = "pickPlace" class="btn btn-primary">Pick Dinner for Me!</button>
+    </div>
+  </div>
+    <div class="row" id="text-output">
+      <label id="RestaurantText">Place your recomendation here</label>
+    </div>
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </body>
+</html>
