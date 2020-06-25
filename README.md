@@ -13,7 +13,7 @@ You have been hired to create an App that (1) takes in an individual's name, (2)
 
 ## TASKS
 For today's lab you should do the following:
-1. Use `document.querySelector` to both the up and down arrow. Using `addEventListener()`, update the value of the `h1` with a `class="money"`. The `h1` element should update every time the user clicks the up and down arrow. **REMEMBER** to update the value of `h1` you should be using `innerHTML`.
+1. Use `document.querySelector` to select for both the up and down arrow. Using `addEventListener()`, update the value of the `h1` with a `class="money"`. The `h1` element should update every time the user clicks the up and down arrow. **REMEMBER** to update the value of `h1` you should be using `innerHTML`.
 2. Get the information that the user puts into the form for the name, food preferance, and money. You should store this information in variables using `document.querySelector`. 
 3. Attach and event listener to the button. When the user clicks the button, the values of name, food preference, and money should be updated. Log these to the console to make sure they are working. **NOTE**: Use the `.value` property to get the value from an input field. For example you could get their food choice by doing:
 ```javascript
